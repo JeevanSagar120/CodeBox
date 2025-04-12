@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBox Web Solutions | Building Digital Experiences</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="code">Code</span><span class="box">Box</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="particles" id="particles-js"></div>
+        <div class="container">
+            <h1 class="hero-title">Building Digital <span>Experiences</span> That Matter</h1>
+            <p class="hero-subtitle">We create beautiful, functional websites that help your business grow</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get Started</a>
+                <a href="#portfolio" class="btn secondary">Our Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About <span>CodeBox</span></h2>
+                <p>We're a passionate team of web developers and designers dedicated to creating exceptional digital experiences. Founded in 2023, we've helped startups and established businesses transform their online presence.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number" data-count="50">0</span>+
+                        <span class="label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number" data-count="30">0</span>+
+                        <span class="label">Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number" data-count="5">0</span>+
+                        <span class="label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="code-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span>Services</span></h2>
+            <p class="section-subtitle">We offer comprehensive web solutions tailored to your business needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies for optimal performance.</p>
+                    <a href="#" class="read-more">Learn more</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful interfaces designed for exceptional user experiences.</p>
+                    <a href="#" class="read-more">Learn more</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Cross-platform mobile applications that engage your audience.</p>
+                    <a href="#" class="read-more">Learn more</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Boost your visibility and rank higher on search engines.</p>
+                    <a href="#" class="read-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our <span>Portfolio</span></h2>
+            <p class="section-subtitle">See some of our recent work</p>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p>Have a project in mind or want to discuss how we can help your business? Reach out to us!</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Tech Street, Silicon Valley, CA</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>hello@codeboxsolutions.com</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="service" required>
+                        <option value="" disabled selected>Select a Service</option>
+                        <option value="web">Web Development</option>
+                        <option value="design">UI/UX Design</option>
+                        <option value="mobile">Mobile App</option>
+                        <option value="seo">SEO Services</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <span class="code" style="color: black;">Code</span><span class="box">Box</span>
+                    </a>
+                    <p>Web Solutions for the Modern Age</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CodeBox Web Solutions. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
